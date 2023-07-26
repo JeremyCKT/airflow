@@ -8,8 +8,8 @@ import sendgrid
 from sendgrid.helpers.mail import Mail, Email, To, Content
 
 def send_email_via_sendgrid(to_email, subject, content):
-    sg = sendgrid.SendGridAPIClient(api_key='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')
-    from_email = Email("jeremyckt@data-sci.info")  # 修改為您的寄件者email地址
+    sg = sendgrid.SendGridAPIClient(api_key='xxxxxx')
+    from_email = Email("xxx.xxx")  # 修改為您的寄件者email地址
     to_email = To(to_email)
     content = Content("text/plain", content)
     mail = Mail(from_email, to_email, subject, content)
@@ -17,10 +17,10 @@ def send_email_via_sendgrid(to_email, subject, content):
 
 def send_email_on_failure(context):
     # 這裡需要您的 SendGrid API 金鑰
-    sg = sendgrid.SendGridAPIClient(api_key='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')
+    sg = sendgrid.SendGridAPIClient(api_key='xxxxxx')
 
-    to_email = "jeremyckt@data-sci.info"  # 收件者email，修改為您要接收通知的email地址
-    from_email = "jeremyckt@data-sci.info"  # 寄件者email，修改為您的寄件者email地址
+    to_email = "xxx@xxx.xxx"  # 收件者email，修改為您要接收通知的email地址
+    from_email = "xxx@xxx.xxx"  # 寄件者email，修改為您的寄件者email地址
     subject = "Airflow DAG Execution Failed"  # 郵件主題
     content = f"DAG execution failed: {context.get('exception')}"  # 郵件內容，包含失敗原因
 
@@ -81,7 +81,7 @@ def scrape_and_write_to_mysql():
     cursor.close()
     conn.close()
 
-    to_email = "jeremyckt@data-sci.info"  # 收件者email
+    to_email = "xxx@xxx.xxx"  # 收件者email
     subject = "WordPress Crawler Completed"  # 郵件主題
     content = "The WordPress crawler has completed successfully!"  # 郵件內容
     send_email_via_sendgrid(to_email, subject, content)
@@ -110,12 +110,5 @@ crawl_and_write_task = PythonOperator(
     dag=dag,
 )
 
-# send_email_task = EmailOperator(
-#     task_id='send_email_task',
-#     to='jeremyckt@data-sci.info',  # 收件者email
-#     subject='WordPress Crawler Completed',  # 郵件主題
-#     html_content='The WordPress crawler has completed successfully!',  # 郵件內容
-#     dag=dag,
-# )
-# 設定Task的依賴順序
-crawl_and_write_task # >> send_email_task
+
+crawl_and_write_task
