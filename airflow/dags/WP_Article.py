@@ -13,10 +13,10 @@ def scrape_and_write_to_mysql():
 
     # MySQL連線設定
     db_config = {
-        "host": "35.229.234.110",
-        "user": "jeremy",
-        "password": "Qwer@12345678",
-        "database": "test_schema"
+        "host": "xxx.xxx.xxx.xxx",
+        "user": "xxxxxx",
+        "password": "xxxxxx",
+        "database": "xxxxx"
     }
 
     # 建立MySQL連線
