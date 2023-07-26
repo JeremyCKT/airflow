@@ -8,8 +8,8 @@ import sendgrid
 from sendgrid.helpers.mail import Mail, Email, To, Content
 
 def send_email_via_sendgrid(to_email, subject, content):
-    sg = sendgrid.SendGridAPIClient(api_key='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')
-    from_email = Email("jeremyckt@data-sci.info")  # 修改為您的寄件者email地址
+    sg = sendgrid.SendGridAPIClient(api_key='xxxxxx')
+    from_email = Email("xxx@xxx.xxx")  # 修改為您的寄件者email地址
     to_email = To(to_email)
     content = Content("text/plain", content)
     mail = Mail(from_email, to_email, subject, content)
@@ -24,10 +24,10 @@ def scrape_and_write_to_mysql():
 
     # MySQL連線設定
     db_config = {
-        "host": "35.229.234.110",
-        "user": "jeremy",
-        "password": "Qwer@12345678",
-        "database": "test_schema"
+        "host": "xxx.xxx.xxx.xxx",
+        "user": "xxxxxx",
+        "password": "xxxxxx",
+        "database": "xxxxxx"
     }
 
     # 建立MySQL連線
@@ -68,7 +68,7 @@ def scrape_and_write_to_mysql():
     cursor.close()
     conn.close()
 
-    to_email = "jeremyckt@data-sci.info"  # 收件者email
+    to_email = "xxx@xxx.xxx"  # 收件者email
     subject = "WordPress Crawler Completed"  # 郵件主題
     content = "The WordPress crawler has completed successfully!"  # 郵件內容
     send_email_via_sendgrid(to_email, subject, content)
@@ -96,12 +96,4 @@ crawl_and_write_task = PythonOperator(
     dag=dag,
 )
 
-# send_email_task = EmailOperator(
-#     task_id='send_email_task',
-#     to='jeremyckt@data-sci.info',  # 收件者email
-#     subject='WordPress Crawler Completed',  # 郵件主題
-#     html_content='The WordPress crawler has completed successfully!',  # 郵件內容
-#     dag=dag,
-# )
-# 設定Task的依賴順序
-crawl_and_write_task # >> send_email_task
+crawl_and_write_task
