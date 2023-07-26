@@ -1,0 +1,37 @@
+2023-07-04 05:06:33,356 INFO - Starting the scheduler
+2023-07-04 05:06:33,357 INFO - Processing each file at most -1 times
+2023-07-04 05:06:34,120 INFO - Launched DagFileProcessorManager with pid: 183268
+2023-07-04 05:06:34,129 INFO - Resetting orphaned tasks for active dag runs
+2023-07-04 05:06:34,213 INFO - Configured default timezone Timezone('UTC')
+2023-07-04 05:11:34,248 INFO - Resetting orphaned tasks for active dag runs
+2023-07-04 05:16:34,293 INFO - Resetting orphaned tasks for active dag runs
+2023-07-04 05:23:45,272 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-30.
+2023-07-04 05:23:45,272 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-34.
+2023-07-04 05:23:45,275 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-29.
+2023-07-04 05:23:45,275 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-33.
+2023-07-04 05:23:45,279 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-32.
+2023-07-04 05:23:45,279 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-31.
+2023-07-04 05:23:45,282 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-28.
+2023-07-04 05:23:45,282 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-26.
+2023-07-04 05:23:45,286 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-22.
+2023-07-04 05:23:45,290 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-24.
+2023-07-04 05:23:45,290 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-21.
+2023-07-04 05:23:45,286 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-25.
+2023-07-04 05:23:45,294 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-23.
+2023-07-04 05:23:45,294 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-27.
+2023-07-04 05:23:45,298 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-17.
+2023-07-04 05:23:45,298 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-19.
+2023-07-04 05:23:45,302 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-20.
+2023-07-04 05:23:45,301 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-16.
+2023-07-04 05:23:45,304 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-15.
+2023-07-04 05:23:45,305 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-18.
+2023-07-04 05:23:45,308 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-13.
+2023-07-04 05:23:45,308 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-14.
+2023-07-04 05:23:45,310 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-10.
+2023-07-04 05:23:45,310 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-9.
+2023-07-04 05:23:45,313 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-12.
+2023-07-04 05:23:45,313 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-8.
+2023-07-04 05:23:45,316 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-7.
+2023-07-04 05:23:45,316 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-11.
+2023-07-04 05:23:45,320 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-5.
+2023-07-04 05:23:45,319 INFO - Failed to read tasks from the task queue because the other end has closed the connection. Terminating worker QueuedLocalWorker-6.
